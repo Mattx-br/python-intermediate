@@ -162,7 +162,7 @@ print(mylist)
 # List comprehension
 # Ah, você sabia que a mesmo conceito pode ser aplicado aos dicionários (dict) do Python?
 # Base syntax: [expression for item in lista] expression can be any calculation
-
+'''
 a = [1,2,3,4,5,6]
 print(a)
 
@@ -175,7 +175,7 @@ print(b)
 # With list comprehension
 b = [element * element for element in a]
 print(b)
-
+'''
 
 # References
 '''
