@@ -3,10 +3,11 @@
 
 '''================================='''
 # Lists
+# Ordered, mutable, allows duplicate elements
 '''================================='''
 
 # ways to create a list
-mylist = ['batata', 'cenoura', 'batavo']
+mylist = ['batata', 'cenoura', 'batavo', 'abacaxi', 'espinafre']
 print(mylist)
 
 '''
@@ -78,6 +79,7 @@ print(mylist)
 # Reverse the list
 '''
 mylist.reverse()
+a = mylist[::-1]
 '''
 
 # Sort the list (alphabetical and numerical order)
@@ -109,6 +111,75 @@ print(new_list)
 
 # Slice lists
 # gets all elements from the first index to the second one, but it catches the last index - 1
-
+'''
 a = mylist[0:2] # -> ['batata', 'cenoura']
 print(a)
+'''
+
+# if dont specify the beginning or end, it goes all way through
+'''
+a = mylist[:2] # -> ['batata', 'cenoura']
+a = mylist[2:] # -> ['batavo', 'abacaxi', 'espinafre']
+print(a)
+'''
+# optional step index (default is 1)
+'''
+a = mylist[::2]
+print(a)
+'''
+
+# Careful in copy lists, if you change the copy the original changes too
+# with this assignment both lists refers to the same list inside the memory
+'''
+list_copy = mylist
+
+list_copy.pop()
+
+print(list_copy)
+print(mylist)
+'''
+
+# to actually copy, use:
+
+'''
+# 1° way
+list_copy = mylist.copy()
+
+# 2° way
+list_copy = list(mylist)
+
+# 3° way
+list_copy = mylist[:]
+
+
+list_copy.pop()
+
+print(list_copy)
+print(mylist)
+'''
+
+
+# List comprehension
+# Ah, você sabia que a mesmo conceito pode ser aplicado aos dicionários (dict) do Python?
+# Base syntax: [expression for item in lista] expression can be any calculation
+
+a = [1,2,3,4,5,6]
+print(a)
+
+# 'normal' way
+b = []
+for i in a:
+    b.append(i *i)
+print(b)
+
+# With list comprehension
+b = [element * element for element in a]
+print(b)
+
+
+# References
+'''
+https://pythonacademy.com.br/blog/list-comprehensions-no-python
+
+https://www.w3schools.com/python/python_lists_comprehension.asp
+'''
