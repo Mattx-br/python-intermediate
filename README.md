@@ -1,5 +1,8 @@
 # References
 
+## Video tutorial about Python intermediate concepts
+https://www.youtube.com/watch?v=HGOBQPFzWKo&t
+
 ## Exercises  
 https://wiki.python.org.br/ExerciciosListas
 

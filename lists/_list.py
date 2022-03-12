@@ -1,10 +1,6 @@
-# code based on this video: https://www.youtube.com/watch?v=HGOBQPFzWKo&t
-# exercices to fix the learning: https://wiki.python.org.br/ListaDeExercicios
-
-'''================================='''
 # Lists
 # Ordered, mutable, allows duplicate elements
-'''================================='''
+"""=========================================="""
 
 # ways to create a list
 mylist = ['batata', 'cenoura', 'batavo', 'abacaxi', 'espinafre']
