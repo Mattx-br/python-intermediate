@@ -6,6 +6,7 @@
 vetor = []
 soma = 0
 multiplicacao = 1
+
 for i in range(5):
     number = int(input('Digite um número inteiro: '))
     vetor.append(number)
@@ -13,4 +14,9 @@ for i in range(5):
     multiplicacao *= number
 
 print(f'soma: {soma} \nmultiplicação: {multiplicacao}')
-print(vetor)
+
+print('Numeros no vetor:')
+
+[print(item, '', sep=' ', end='') for item in vetor]
+
+print(f'{127803:^20c}')  # prints a sunflower
