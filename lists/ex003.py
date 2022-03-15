@@ -1,6 +1,3 @@
-#  Exercises reference: https://wiki.python.org.br/ExerciciosListas
-# ========================================================================== #
-
 # 3. Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
 
 vetor =[]

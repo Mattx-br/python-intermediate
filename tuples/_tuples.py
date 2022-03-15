@@ -114,6 +114,7 @@ print(middle)  # it comes as a list
 print(end)
 """
 
+"""
 # Comparing sizes between tuple and list
 import sys
 
@@ -132,3 +133,5 @@ import timeit
 print(timeit.timeit(stmt='[0, 1, 2, 3, 4, 5]', number=1000000))
 print(timeit.timeit(stmt='(0, 1, 2, 3, 4, 5)', number=1000000))
 # Result: tuples are faster/efficient
+"""
+

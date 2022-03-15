@@ -1,6 +1,8 @@
-# Lists
-# Ordered, mutable, allows duplicate elements
-"""=========================================="""
+"""
+Lists
+Ordered, mutable, allows duplicate elements
+==========================================
+"""
 
 # ways to create a list
 mylist = ['batata', 'cenoura', 'batavo', 'abacaxi', 'espinafre']
