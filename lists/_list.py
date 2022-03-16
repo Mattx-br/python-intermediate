@@ -1,7 +1,6 @@
 """
-Lists
+List
 Ordered, mutable, allows duplicate elements
-==========================================
 """
 
 # ways to create a list

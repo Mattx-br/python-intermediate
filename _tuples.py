@@ -1,5 +1,6 @@
-# Tuple: ordered, immutable, allows duplicate elements
-
+"""
+Tuple: ordered, immutable, allows duplicate elements
+"""
 mytuple = ('Tony', 20, 'California')
 
 """
