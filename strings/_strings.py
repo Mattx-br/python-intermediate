@@ -174,3 +174,4 @@ var2 = 'nunes'
 my_string = f'The variable is {var} {var2.replace(var2[0], var2[0].upper(), 1)}'
 print(my_string)
 """
+ 
