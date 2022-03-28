@@ -6,6 +6,8 @@ Binary Search
 
 import random
 import time
+
+
 # [1,3,6,7,9,12,13]
 
 # implement naive search
@@ -39,6 +41,7 @@ def binary_search(some_list, target, low=None, high=None):
         new_low = midpoint + 1
         return binary_search(some_list, target, new_low, high)
 
+
 # if you are running just this one file, only run whatever is under this section
 if __name__ == '__main__':
     # l = [1, 3, 6, 7, 9, 12, 13]
@@ -50,7 +53,7 @@ if __name__ == '__main__':
     sorted_list = set()
     while len(sorted_list) < length:
         sorted_list.add(random.randint(-3 * length, 3 * length))
-    
+
     sorted_list = sorted(list(sorted_list))
 
     target_list = [random.randint(-3 * length, 3 * length) for _ in range(length)]
@@ -60,7 +63,7 @@ if __name__ == '__main__':
         naive_search(sorted_list, target)
     end = time.time()
     print(f'Naive search time: {end - start} seconds')
-    
+
     start = time.time()
     for target in target_list:
         binary_search(sorted_list, target)
